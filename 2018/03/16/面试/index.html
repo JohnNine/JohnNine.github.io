@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="面经,Javascript," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="小孜" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="面试专用">
+<meta name="keywords" content="面经,Javascript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="面试">
+<meta property="og:url" content="http://yoursite.com/2018/03/16/面试/index.html">
+<meta property="og:site_name" content="小孜">
+<meta property="og:description" content="面试专用">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201219068.png">
+<meta property="og:image" content="http://yoursite.com/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201219158.png">
+<meta property="og:image" content="http://yoursite.com/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201225514.png">
+<meta property="og:image" content="http://yoursite.com/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201227054.png">
+<meta property="og:updated_time" content="2018-04-09T13:28:31.926Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="面试">
+<meta name="twitter:description" content="面试专用">
+<meta name="twitter:image" content="http://yoursite.com/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201219068.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/03/16/面试/"/>
+
+
+
+
+
+  <title>面试 | 小孜</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">小孜</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/16/面试/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Subminum">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小孜">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">面试</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-16T00:00:00+08:00">
+                2018-03-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Javascript/" itemprop="url" rel="index">
+                    <span itemprop="name">Javascript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  面试专用
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="手写一个js继承"><a href="#手写一个js继承" class="headerlink" title="手写一个js继承"></a>手写一个js继承</h2><p>​    继承、<strong>prototype</strong> ——<a href="http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html" target="_blank" rel="noopener">阮一峰解释</a></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//普通继承</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">DOG</span>(<span class="params">name</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">this</span>.name = name;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> dogA = <span class="keyword">new</span> DOG(<span class="string">'大毛'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(dogA.name); <span class="comment">// 大毛</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//原型继承</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">DOG</span>(<span class="params">name</span>)</span>&#123;</span><br><span class="line">　　<span class="keyword">this</span>.name = name;</span><br><span class="line">&#125;</span><br><span class="line">DOG.prototype = &#123; <span class="attr">species</span> : <span class="string">'犬科'</span> &#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> dogA = <span class="keyword">new</span> DOG(<span class="string">'大毛'</span>);</span><br><span class="line"><span class="keyword">var</span> dogB = <span class="keyword">new</span> DOG(<span class="string">'二毛'</span>);</span><br><span class="line"></span><br><span class="line">alert(dogA.species); <span class="comment">// 犬科</span></span><br><span class="line">alert(dogB.species); <span class="comment">// 犬科</span></span><br></pre></td></tr></table></figure>
+<h2 id="DNS域名解析"><a href="#DNS域名解析" class="headerlink" title="DNS域名解析"></a>DNS域名解析</h2><p>​    1. 浏览器客户端向本地DNS服务器发送一个含有域名<a href="http://www.cnblogs.com的DNS查询报文。本地DNS服务器把查询报文转发到根DNS服务器，根DNS服务器注意到其com后缀，于是向本地DNS服务器返回comDNS服务器的IP地址。本地DNS服务器再次向comDNS服务器发送查询请求，comDNS服务器注意到其www.cnblogs.com后缀并用负责该域名的权威DNS服务器的IP地址作为回应。最后，本地DNS服务器将含有www.cnblogs.com的IP地址的响应报文发送给客户端。" target="_blank" rel="noopener">www.cnblogs.com的DNS查询报文。本地DNS服务器把查询报文转发到根DNS服务器，根DNS服务器注意到其com后缀，于是向本地DNS服务器返回comDNS服务器的IP地址。本地DNS服务器再次向comDNS服务器发送查询请求，comDNS服务器注意到其www.cnblogs.com后缀并用负责该域名的权威DNS服务器的IP地址作为回应。最后，本地DNS服务器将含有www.cnblogs.com的IP地址的响应报文发送给客户端。</a></p>
+<pre><code>2. 从客户端到本地服务器属于递归查询，而DNS服务器之间的交互属于迭代查询。
+</code></pre><p>​    3. 正常情况下，本地DNS服务器的缓存中已有comDNS服务器的地址，因此请求根域名服务器这一步不是必需的。</p>
+<p><img src="/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201219068.png" alt="mage-20180320121906"></p>
+<p><img src="/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201219158.png" alt="mage-20180320121915"></p>
+<h2 id="浏览器布局渲染"><a href="#浏览器布局渲染" class="headerlink" title="浏览器布局渲染"></a>浏览器布局渲染</h2><p>​    根据渲染树布局，计算CSS样式，即每个节点在页面中的大小和位置等几何信息。HTML默认是流式布局的，CSS和js会打破这种布局，flutter改变DOM的外观样式以及大小和位置。这时就要提到两个重要概念：replaint和reflow。</p>
+<p>​    1. replaint：屏幕的一部分重画，不影响整体布局，比如某个CSS的背景色变了，但元素的几何尺寸和位置不变。</p>
+<p>​    2. reflow： 意味着元件的几何尺寸变了，我们需要重新验证并计算渲染树。是渲染树的一部分或全部发生了变化。这就是Reflow，或是Layout。</p>
+<p>​    所以我们应该尽量减少reflow和replaint，我想这也是为什么现在很少有用table布局的原因之一。</p>
+<p>​    最后浏览器绘制各个节点，将页面展示给用户。</p>
+<h2 id="Let和const"><a href="#Let和const" class="headerlink" title="Let和const"></a>Let和const</h2><p>​    let声明的变量只在块级作用域内有效，用大括号括起来的部分都叫块级作用域。在块级作用域中不能用let重复声明相同的变量。</p>
+<p>​    const用来声明常量，常量不允许修改。const也有块级作用域的概念，声明的时候必须赋值。let和const不能在同一级作用域内重复定义，const不能在同一级作用域内修改常量的值。在不同的块级作用域里面,可以声明重复的变量以及常量。<strong>如果用const去声明一个对象的时候，可以修改对象的值。</strong></p>
+<p>​    let和const不存在变量提升，有暂时性死区，所以变量要提前声明</p>
+<p>async 函数是什么？一句话，它就是 Generator 函数的语法糖。</p>
+<h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><p>​    客户端发送一个带有SYN标志的数据包给服务端，服务端收到后，回传一个带有SYN/ACK标志的数据包以示传达确认信息，最后客户端再回传一个带ACK标志的数据包，代表握手结束，连接成功。</p>
+<p><img src="/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201225514.png" alt="mage-20180320122551"></p>
+<p>客户端：“你好，在家不，有你快递。”</p>
+<p>服务端：“在的，送来就行。”</p>
+<p>客户端：“好嘞。”</p>
+<h2 id="四次握手"><a href="#四次握手" class="headerlink" title="四次握手"></a>四次握手</h2><p>​    为了避免服务器与客户端双方的资源占用和损耗，当双方没有请求或响应传递时，任意一方都可以发起关闭请求。与创建TCP连接的3次握手类似，关闭TCP连接，需要4次握手。</p>
+<p><img src="/var/folders/9z/8xx9sv750sx31xn88v4x0bh80000gn/T/abnerworks.Typora/image-201803201227054.png" alt="mage-20180320122705"></p>
+<p>客户端：“兄弟，我这边没数据要传了，咱关闭连接吧。”</p>
+<p>服务端：“收到，我看看我这边有木有数据了。”</p>
+<p>服务端：“兄弟，我这边也没数据要传你了，咱可以关闭连接了。”</p>
+<p>客户端：“好嘞。”</p>
+<h2 id="HTTPs"><a href="#HTTPs" class="headerlink" title="HTTPs"></a>HTTPs</h2><p>HTTPS 通过安全协议如SSL/TLS 来保证数据传输, SSL和TLS都是基于非对称加密算法，而RSA算法是非对称加密算法中的佼佼者。</p>
+<p>SSL证书工作的过程：</p>
+<ul>
+<li>当浏览器或服务器尝试连接支持支持SSL的网络服务器时，浏览器或服务器会要求网络服务器表明自己的身份。</li>
+<li>网络服务器发送一份自身持有的SSL证书给浏览器或服务器，浏览器或服务器根据一定的规则(和本地存储的CA根证书列表对比) 判断是否信任远程服务，如果信任，则发送一份消息给远程服务器，否则中断继续连接。</li>
+<li>网络服务器接收到消息后，发送一份包含数字签名的确认信息，开始建立SSL加密的会话。</li>
+<li>会话建立后，加密的数据顺畅地在客户端和网络服务器之间传递。</li>
+</ul>
+<h2 id="HTTPS和HTTP的区别"><a href="#HTTPS和HTTP的区别" class="headerlink" title="HTTPS和HTTP的区别"></a>HTTPS和HTTP的区别</h2><p>​    超文本传输协议HTTP协议被用于在Web浏览器和网站服务器之间传递信息。HTTP协议以明文方式发送内容，不提供任何方式的数据加密，如果攻击者截取了Web浏览器和网站服务器之间的传输报文，就可以直接读懂其中的信息，因此HTTP协议不适合传输一些敏感信息，比如信用卡号、密码等。<br>    为了解决HTTP协议的这一缺陷，需要使用另一种协议：安全套接字层超文本传输协议HTTPS。为了数据传输的安全，HTTPS在HTTP的基础上加入了SSL协议，SSL依靠证书来验证服务器的身份，并为浏览器和服务器之间的通信加密。<br>HTTPS和HTTP的区别主要为以下四点：<br>    一、https协议需要到ca申请证书，一般免费证书很少，需要交费。<br>    二、http是超文本传输协议，信息是明文传输，https 则是具有安全性的ssl加密传输协议。<br>    三、http和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443。<br>    四、http的连接很简单，是无状态的；HTTPS协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。</p>
+<h2 id="HTTP缓存"><a href="#HTTP缓存" class="headerlink" title="HTTP缓存"></a>HTTP缓存</h2><p> <strong>缓存过程：</strong></p>
+<ul>
+<li>当一个用户发起一个静态资源请求的时候,浏览器会通过以下几步来获取资源</li>
+<li>当第一次发送请求，http返回200的状态码，</li>
+<li>如果没有关闭缓存请求的话（没标明不使用缓存，下述）则会在返回头中返回包含last-Modified以及Etag和Expires的字段（这些字段下面慢慢说），然后将文件保存在Cache目录下；</li>
+<li>当后续请求该文件时候，先在本地查找该资源,如果在本地缓存找到对应的资源,但是不知道该资源是否过期或者已经过期, 则发一个http请求到服务器,然后服务器判断这个请求,</li>
+<li>如果请求的资源在服务器上没有改动过,则返回304, 让浏览器使用本地找到的那个资源</li>
+<li>而如果当服务器发现请求的资源已经修改过,或者这是一个新的请求(本地无对应资源),服务器则返回该资源的数据,并且返回200,</li>
+<li>当然这个是指找到资源的情况下,如果服务器上没有这个资源,则返回404</li>
+</ul>
+<h2 id="xmlHttpRequest"><a href="#xmlHttpRequest" class="headerlink" title="xmlHttpRequest"></a>xmlHttpRequest</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> xhr = <span class="keyword">new</span> XMLHttpRequest();</span><br><span class="line">xhr.open(<span class="string">"GET"</span>, <span class="string">"/api"</span>, <span class="literal">false</span>)</span><br><span class="line">xhr.onreadystatechange = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(xhr.readyState == <span class="number">4</span>)&#123;</span><br><span class="line">    <span class="comment">//0未初始化</span></span><br><span class="line">    <span class="comment">//1载入</span></span><br><span class="line">    <span class="comment">//2载入完成</span></span><br><span class="line">    <span class="comment">//3交互</span></span><br><span class="line">    <span class="comment">//4完成</span></span><br><span class="line">    <span class="keyword">if</span>(xhr.status == <span class="number">200</span>)&#123;</span><br><span class="line">      <span class="comment">//2xx 完成</span></span><br><span class="line">      <span class="comment">//3xx 重定向</span></span><br><span class="line">      <span class="comment">//4xx 客户端请求错误</span></span><br><span class="line">      <span class="comment">//5xx 服务端请求错误</span></span><br><span class="line">      alert(xhr.responseText);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">xhr.send(<span class="literal">null</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">$.ajax(&#123;</span><br><span class="line">                type: <span class="string">"get"</span>, <span class="comment">// 请求类型（get/post）</span></span><br><span class="line">                url: <span class="string">"你的请求路径－url"</span>, </span><br><span class="line">                <span class="keyword">async</span>: <span class="literal">true</span>, <span class="comment">// 是否异步</span></span><br><span class="line">                dataType: <span class="string">"json"</span>, <span class="comment">// 设置数据类型</span></span><br><span class="line">                success: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>)</span>&#123;</span><br><span class="line">                    <span class="comment">// 请求成功后的回调方法，进行数据赋值、显示等操作</span></span><br><span class="line">                &#125;,</span><br><span class="line">                error: <span class="function"><span class="keyword">function</span> (<span class="params">errorMsg</span>)</span>&#123;</span><br><span class="line">                    <span class="comment">// 请求失败</span></span><br><span class="line">                    alert(<span class="string">"请求失败"</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br></pre></td></tr></table></figure>
+<h2 id="CSS清除浮动"><a href="#CSS清除浮动" class="headerlink" title="CSS清除浮动"></a>CSS清除浮动</h2><ol>
+<li><p>clear清除浮动（添加空div法）</p>
+</li>
+<li><p>给浮动元素父级<strong>设置高度</strong>    缺点：在浮动元素高度不确定的时候不适用</p>
+</li>
+<li><p>以浮制浮（<strong>父级同时浮动</strong>）  缺点：需要给每个浮动元素父级添加浮动，浮动多了容易出现问题。</p>
+</li>
+<li><p><strong>父级设置成inline-block</strong>   缺点：父级的margin左右auto失效，无法使用margin: 0 auto;居中了</p>
+</li>
+<li><p><strong>br</strong> 清浮动   br 标签自带clear属性，将它设置成both其实和添加空div原理是一样的</p>
+</li>
+<li><p>给父级添加<strong>overflow:hidden</strong> 清浮动方法   问题：需要配合 宽度 或者 zoom 兼容IE6 IE7；</p>
+</li>
+<li><p>万能清除法 <strong>after伪类</strong> 清浮动（现在<strong>主流</strong>方法，<strong>推荐使用</strong>）</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">after</span>&#123;</span><br><span class="line">    <span class="attribute">content</span>:<span class="string">"."</span>;</span><br><span class="line">    <span class="attribute">clear</span>:both;</span><br><span class="line">    <span class="attribute">display</span>:block;</span><br><span class="line">    <span class="attribute">height</span>:<span class="number">0</span>;</span><br><span class="line">    <span class="attribute">overflow</span>:hidden;</span><br><span class="line">	<span class="attribute">visibility</span>:hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">after</span>伪类： 元素内部末尾添加内容；</span><br><span class="line">    :after&#123;content"添加的内容";&#125; IE6，7下不兼容</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">zoom</span> 缩放 </span><br><span class="line">    <span class="selector-tag">a</span>、触发 <span class="selector-tag">IE</span>下 <span class="selector-tag">haslayout</span>，使元素根据自身内容计算宽高。</span><br><span class="line">    <span class="selector-tag">b</span>、<span class="selector-tag">FF</span> 不支持；</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="positon"><a href="#positon" class="headerlink" title="positon"></a>positon</h2><table>
+<thead>
+<tr>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>absolute</td>
+<td>生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 “left”, “top”, “right” 以及 “bottom” 属性进行规定。</td>
+</tr>
+<tr>
+<td>fixed</td>
+<td>生成绝对定位的元素，相对于浏览器窗口进行定位。元素的位置通过 “left”, “top”, “right” 以及 “bottom” 属性进行规定。</td>
+</tr>
+<tr>
+<td>relative</td>
+<td>生成相对定位的元素，相对于其正常位置进行定位。因此，”left:20” 会向元素的 LEFT 位置添加 20 像素。</td>
+</tr>
+<tr>
+<td>static</td>
+<td>默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right 或者 z-index 声明）。</td>
+</tr>
+<tr>
+<td>inherit</td>
+<td>规定应该从父元素继承 position 属性的值。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="display"><a href="#display" class="headerlink" title="display"></a>display</h2><table>
+<thead>
+<tr>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>none</td>
+<td>此元素不会被显示。</td>
+</tr>
+<tr>
+<td>block</td>
+<td>此元素将显示为块级元素，此元素前后会带有换行符。</td>
+</tr>
+<tr>
+<td>inline</td>
+<td>默认。此元素会被显示为内联元素，元素前后没有换行符。</td>
+</tr>
+<tr>
+<td>inline-block</td>
+<td>行内块元素。（CSS2.1 新增的值）</td>
+</tr>
+<tr>
+<td>list-item</td>
+<td>此元素会作为列表显示。</td>
+</tr>
+<tr>
+<td>run-in</td>
+<td>此元素会根据上下文作为块级元素或内联元素显示。</td>
+</tr>
+<tr>
+<td>compact</td>
+<td>CSS 中有值 compact，不过由于缺乏广泛支持，已经从 CSS2.1 中删除。</td>
+</tr>
+<tr>
+<td>marker</td>
+<td>CSS 中有值 marker，不过由于缺乏广泛支持，已经从 CSS2.1 中删除。</td>
+</tr>
+<tr>
+<td>table</td>
+<td>此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。</table></td>
+</tr>
+<tr>
+<td>inline-table</td>
+<td>此元素会作为内联表格来显示（类似 <table>），表格前后没有换行符。</table></td>
+</tr>
+<tr>
+<td>table-row-group</td>
+<td>此元素会作为一个或多个行的分组来显示（类似 <tbody>）。</tbody></td>
+</tr>
+<tr>
+<td>table-header-group</td>
+<td>此元素会作为一个或多个行的分组来显示（类似 <thead>）。</thead></td>
+</tr>
+<tr>
+<td>table-footer-group</td>
+<td>此元素会作为一个或多个行的分组来显示（类似 <tfoot>）。</tfoot></td>
+</tr>
+<tr>
+<td>table-row</td>
+<td>此元素会作为一个表格行显示（类似 </td></tr><tr>）。
+</tr>
+<tr>
+<td>table-column-group</td>
+<td>此元素会作为一个或多个列的分组来显示（类似 <colgroup>）。</colgroup></td>
+</tr>
+<tr>
+<td>table-column</td>
+<td>此元素会作为一个单元格列显示（类似 <col>）</td>
+</tr>
+<tr>
+<td>table-cell</td>
+<td>此元素会作为一个表格单元格显示（类似 </td><td> 和 <th>）</th></td>
+</tr>
+<tr>
+<td>table-caption</td>
+<td>此元素会作为一个表格标题显示（类似 <caption>）</caption></td>
+</tr>
+<tr>
+<td>inherit</td>
+<td>规定应该从父元素继承 display 属性的值。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="响应式节点"><a href="#响应式节点" class="headerlink" title="响应式节点"></a>响应式节点</h2><ol>
+<li>1170px（大屏幕 大桌面显示器）</li>
+<li>970px（中等屏幕  桌面显示器）</li>
+<li>750px（小屏幕 平板）</li>
+<li>小于768px （超小 <a href="https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E5%B1%8F%E5%B9%95&amp;tn=44039180_cpr&amp;fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1d9uj9hnvF-PjbduywWuyP-0ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3EnHbzPjbYnH01rHf3P1m3PjRsPs" target="_blank" rel="noopener">手机屏幕</a>）</li>
+</ol>
+<h2 id="react和vue的区别"><a href="#react和vue的区别" class="headerlink" title="react和vue的区别"></a>react和vue的区别</h2><ol>
+<li><strong>Virtual DOM</strong><ul>
+<li>Vue宣称可以<a href="https://vuejs.org/v2/guide/comparison.html#Performance" target="_blank" rel="noopener">更快地计算出Virtual DOM的差异</a>，这是由于它在渲染过程中，会跟踪每一个组件的依赖关系，不需要重新渲染整个组件树。<a href="http://caibaojian.com/vue-vs-react.html" target="_blank" rel="noopener">·</a></li>
+<li>而对于React而言，<a href="https://facebook.github.io/react/docs/react-component.html#shouldcomponentupdate" target="_blank" rel="noopener">每当应用的状态被改变时</a>，全部子组件都会重新渲染。当然，这可以通过<code>shouldComponentUpdate</code>这个生命周期方法来进行控制，但Vue将此视为<a href="https://vuejs.org/v2/guide/comparison.html#Optimization-Efforts" target="_blank" rel="noopener">默认的优化</a>。</li>
+</ul>
+</li>
+<li><strong>模板 vs JSX</strong></li>
+</ol>
+<h2 id="react组件生命周期"><a href="#react组件生命周期" class="headerlink" title="react组件生命周期"></a>react组件生命周期</h2><ul>
+<li>Mounting：已插入真实 DOM</li>
+<li>Updating：正在被重新渲染</li>
+<li>Unmounting：已移出真实 DOM</li>
+</ul>
+<h2 id="VUE生命周期"><a href="#VUE生命周期" class="headerlink" title="VUE生命周期"></a>VUE生命周期</h2><h2 id="暂时性死区"><a href="#暂时性死区" class="headerlink" title="暂时性死区"></a>暂时性死区</h2><p>　　只要块级作用域内存在<code>let</code>命令，它所声明的变量就“绑定”（binding）这个区域，不再受外部的影响。</p>
+<p>　　ES6明确规定，如果区块中存在<code>let</code>和<code>const</code>命令，这个区块对这些命令声明的变量，从一开始就形成了封闭作用域。凡是在声明之前就使用这些变量，就会报错。</p>
+<p>　　总之，在代码块内，使用<code>let</code>命令声明变量之前，该变量都是不可用的。这在语法上，称为“暂时性死区”（temporal dead zone，简称 TDZ）。</p>
+<p>　　“暂时性死区”也意味着<code>typeof</code>不再是一个百分之百安全的操作（会使typeof报错）。</p>
+<p>　　总之，暂时性死区的本质就是，只要一进入当前作用域，所要使用的变量就已经存在了，<strong>但是不可获取</strong>，只有等到声明变量的那一行代码出现，才可以获取和使用该变量。</p>
+<h2 id="CSS-元素垂直居中"><a href="#CSS-元素垂直居中" class="headerlink" title="CSS 元素垂直居中"></a>CSS 元素垂直居中</h2><ol>
+<li>不知道自己高度和父容器高度的情况下, 利用绝对定位只需要以下三行：</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">parentElement</span>&#123;</span><br><span class="line">        <span class="attribute">position</span>:relative;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"> <span class="selector-tag">childElement</span>&#123;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-50%);</span><br><span class="line"></span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>若父容器下只有一个元素，且父元素设置了高度，则只需要使用相对定位即可</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">parentElement</span>&#123;</span><br><span class="line">    <span class="attribute">height</span>:xxx;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.childElement</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-50%);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><strong>Flex 布局：</strong></li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">parentElement</span>&#123;</span><br><span class="line">    <span class="attribute">display</span>:flex;<span class="comment">/*Flex布局*/</span></span><br><span class="line">    <span class="attribute">display</span>: -webkit-flex; <span class="comment">/* Safari */</span></span><br><span class="line">    <span class="attribute">align-items</span>:center;<span class="comment">/*指定垂直居中*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Cookie、localStorage、sessionStorage的区别"><a href="#Cookie、localStorage、sessionStorage的区别" class="headerlink" title="Cookie、localStorage、sessionStorage的区别"></a>Cookie、localStorage、sessionStorage的区别</h2><ol>
+<li><p>cookie</p>
+<p>​    Cookie 是小甜饼的意思。顾名思义，cookie 确实非常小，它的大小限制为4KB左右，是网景公司的前雇员 Lou Montulli 在1993年3月的发明。它的主要用途有保存登录信息，比如你登录某个网站市场可以看到“记住密码”，这通常就是通过在 Cookie 中存入一段辨别用户身份的数据来实现的。</p>
+</li>
+</ol>
+<ol start="2">
+<li><p>localStorage</p>
+<p>​    localStorage 是 HTML5 标准中新加入的技术，它并不是什么划时代的新东西。早在 IE 6 时代，就有一个叫 userData 的东西用于<strong>本地存储</strong>，而当时考虑到浏览器兼容性，更通用的方案是使用 Flash。而如今，localStorage 被大多数浏览器所支持，如果你的网站需要支持 IE6+，那以 userData 作为你的 polyfill 的方案是种不错的选择。</p>
+</li>
+<li><p>sessionStorage</p>
+<p>​    sessionStorage 与 localStorage 的接口类似，但保存数据的生命周期与 localStorage 不同。做过后端开发的同学应该知道 Session 这个词的意思，直译过来是“会话”。而 sessionStorage 是一个前端的概念，它只是可以将一部分数据在当前会话中保存下来，刷新页面数据依旧存在。但当页面关闭后，sessionStorage 中的数据就会被清空。</p>
+</li>
+<li><p>三者异同</p>
+<p>| 特性           | Cookie                                                       | localStorage                                                | sessionStorage                               |<br>| ————– | ———————————————————— | ———————————————————– | ——————————————– |<br>| 数据的生命期   | 一般由服务器生成，可设置失效时间。如果在浏览器端生成Cookie，默认是关闭浏览器后失效 | 除非被清除，否则永久保存                                    | 仅在当前会话下有效，关闭页面或浏览器后被清除 |<br>| 存放数据大小   | 4K左右                                                       | 一般为5MB                                                   |                                              |<br>| 与服务器端通信 | 每次都会携带在HTTP头中，如果使用cookie保存过多数据会带来性能问题 | 仅在客户端（即浏览器）中保存，不参与和服务器的通信          |                                              |<br>| 易用性         | 需要程序员自己封装，源生的Cookie接口不友好                   | 源生接口可以接受，亦可再次封装来对Object和Array有更好的支持 |                                              |</p>
+<p>​    cookie 一般由服务器生成，可设置失效时间。如果在浏览器端生成Cookie，默认是关闭浏览器后失效,存放数据大小一般4K左右，而sessionStorage与localStorage大小在5兆左右，在客户端生成，localStorage除非被清除，否则会永久保存，sessionStorage仅在当前会话下有效，关闭页面或浏览器后被清除，cookie在与服务器端通信每次都会携带在HTTP头中，如果使用cookie保存过多数据会带来性能问题,而sessionStorage与localStorage仅在客户端（即浏览器）中保存，不参与和服务器的通信。</p>
+<ol>
+<li>cookie由服务端生成，用于标识用户身份；而两个storage用于浏览器端缓存数据</li>
+<li>三者都是键值对的集合</li>
+<li>一般情况下浏览器端不会修改cookie，但会频繁操作两个storage</li>
+<li>如果保存了cookie的话，http请求中一定会带上；而两个storage可以由脚本选择性的提交</li>
+<li>会话的storage会在会话结束后销毁；而local的那个会永久保存直到覆盖。cookie会在过期时间之后销毁。</li>
+<li>安全性方面，cookie中最好不要放置任何明文的东西。两个storage的数据提交后在服务端一定要校验（其实任何payload和qs里的参数都要校验）。</li>
+</ol>
+</li>
+</ol>
+<h2 id="JS的事件模型就是一种观察者模式的体现，当对应的事件被触发时，监听该事件的所有监听函数都会被调用。"><a href="#JS的事件模型就是一种观察者模式的体现，当对应的事件被触发时，监听该事件的所有监听函数都会被调用。" class="headerlink" title="JS的事件模型就是一种观察者模式的体现，当对应的事件被触发时，监听该事件的所有监听函数都会被调用。"></a>JS的事件模型就是一种观察者模式的体现，当对应的事件被触发时，监听该事件的所有监听函数都会被调用。</h2>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/面经/" rel="tag"># 面经</a>
+          
+            <a href="/tags/Javascript/" rel="tag"># Javascript</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/13/CSS/" rel="next" title="css面试知识点">
+                <i class="fa fa-chevron-left"></i> css面试知识点
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/18/JS MS/" rel="prev" title="Javascript知识点">
+                Javascript知识点 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="Subminum" />
+          <p class="site-author-name" itemprop="name">Subminum</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/JohnNine" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                    
+                      GitHub
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mr.s.szw@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                    
+                      E-Mail
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/your-user-name" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                    
+                      Twitter
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/your-user-name" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      微博
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://douban.com/people/your-user-name" target="_blank" title="豆瓣">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      豆瓣
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/your-user-name" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      知乎
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#手写一个js继承"><span class="nav-number">1.</span> <span class="nav-text">手写一个js继承</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DNS域名解析"><span class="nav-number">2.</span> <span class="nav-text">DNS域名解析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#浏览器布局渲染"><span class="nav-number">3.</span> <span class="nav-text">浏览器布局渲染</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Let和const"><span class="nav-number">4.</span> <span class="nav-text">Let和const</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三次握手"><span class="nav-number">5.</span> <span class="nav-text">三次握手</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四次握手"><span class="nav-number">6.</span> <span class="nav-text">四次握手</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTPs"><span class="nav-number">7.</span> <span class="nav-text">HTTPs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTPS和HTTP的区别"><span class="nav-number">8.</span> <span class="nav-text">HTTPS和HTTP的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HTTP缓存"><span class="nav-number">9.</span> <span class="nav-text">HTTP缓存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#xmlHttpRequest"><span class="nav-number">10.</span> <span class="nav-text">xmlHttpRequest</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS清除浮动"><span class="nav-number">11.</span> <span class="nav-text">CSS清除浮动</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#positon"><span class="nav-number">12.</span> <span class="nav-text">positon</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#display"><span class="nav-number">13.</span> <span class="nav-text">display</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#响应式节点"><span class="nav-number">14.</span> <span class="nav-text">响应式节点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#react和vue的区别"><span class="nav-number">15.</span> <span class="nav-text">react和vue的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#react组件生命周期"><span class="nav-number">16.</span> <span class="nav-text">react组件生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#VUE生命周期"><span class="nav-number">17.</span> <span class="nav-text">VUE生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#暂时性死区"><span class="nav-number">18.</span> <span class="nav-text">暂时性死区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS-元素垂直居中"><span class="nav-number">19.</span> <span class="nav-text">CSS 元素垂直居中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cookie、localStorage、sessionStorage的区别"><span class="nav-number">20.</span> <span class="nav-text">Cookie、localStorage、sessionStorage的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JS的事件模型就是一种观察者模式的体现，当对应的事件被触发时，监听该事件的所有监听函数都会被调用。"><span class="nav-number">21.</span> <span class="nav-text">JS的事件模型就是一种观察者模式的体现，当对应的事件被触发时，监听该事件的所有监听函数都会被调用。</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Subminum</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
